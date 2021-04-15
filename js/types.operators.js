@@ -50,6 +50,42 @@ console.log(2 * 2);
 console.log(8 / 2);
 console.log(4 % 28);
 
+//UNDEFINED
+
+// a variable /object which is written but never assigned
+
+var name;
+
+console.log(name);
+
+// STRINGS WOO!
+
+// console.log("Casey"); // string literal
+//
+// console.log('Casey'); // can't do things as easy, such as: that's.
+//
+// console.log('Casey\'s pretty freaking hungry');
+
+// console.log("Casey \nIs \nHungry"); // three lines
+// console.log("Casey \n\tIs \n\t\tHungry "); // three lines diagonal
+
+
+//TYPEOF
+
+console.log(typeof(156));
+
+console.log("The type is: " + typeof(4*"5"));
+
+var name;
+console.log("The type is: " + typeof(name));
+
+
+
+
+
+
+
+
 
 
 
