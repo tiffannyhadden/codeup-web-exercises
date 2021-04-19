@@ -58,7 +58,6 @@ function isTwo(number) {
 }
 
 console.log(isTwo(random));
-console.log("conflict test")
 
 
 /**
