@@ -108,4 +108,4 @@ function applyDiscount(price, percentage) {
 }
 
 console.log(applyDiscount(45.99, .12));
-})();
+})()
