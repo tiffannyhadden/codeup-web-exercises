@@ -63,7 +63,7 @@ console.log(randomColor)
     //         alert("cyan is cyan")
     //         break;
     //     default:
-    //         alert(colorName + " Is not on my listt")
+    //         alert(colorName + " Is not on my list")
     // }
     // }
 
@@ -127,15 +127,15 @@ console.log(randomColor)
 //  * price before the discount was, and what their price after the discount is.
 //  */
 //     Generate a random number between 0 and 6
-    var luckyNumber = Math.floor(Math.random() * 6);
-
-    let totalAmount = prompt("What is your total bill?");
-
-    alert("Your lucky number was " + luckyNumber);
-    alert("Your price before discount was " + totalAmount);
-    alert("Your price after discount was " + calculateTotal(luckyNumber, totalAmount));
-
+//     var luckyNumber = Math.floor(Math.random() * 6);
 //
+//     let totalAmount = prompt("What is your total bill?");
+//
+//     alert("Your lucky number was " + luckyNumber);
+//     alert("Your price before discount was " + totalAmount);
+//     alert("Your price after discount was " + calculateTotal(luckyNumber, totalAmount));
+//
+// //
 // /**
 //  * TODO:
 //  * Write some JavaScript that uses a `confirm` dialog to ask the user if they
@@ -152,5 +152,48 @@ console.log(randomColor)
 //  * Can you refactor your code to use functions?
 //  * HINT: The way we prompt for a value could be improved
 //  */
+
+    function isEven(number) {
+        if(number % 2 === 0) {
+            return true;
+        }
+    }
+
+    function numberPlus100(number) {
+        return parseInt(number) + 100;
+
+    }
+
+    function isPositive(number) {
+        if(number >= 0) {
+            return true;
+        }
+    }
+
+   let choose = confirm("Would you like to enter a number?");
+    if(choose) {
+        let userNum = prompt("What number do you choose?");
+        console.log(typeof userNum);
+        if (typeof userNum === "number") {
+
+            if (isEven(userNum)) {
+                alert("Your number " + userNum + " is even")
+            } else {
+                alert("Your number " + userNum + " is odd")
+            }
+            alert("Your number + 100 is " + numberPlus100(userNum));
+            if (isPositive(userNum)) {
+                alert(" Your number " + userNum + " is positive");
+            } else {
+                alert(" Your number " + userNum + " is negative");
+            }
+        } else {
+            alert("Must be a number")
+        }
+        } else {
+            alert("Goodbye");
+        }
+
+
 
 })()
