@@ -135,9 +135,6 @@ function stickyCaps(str) {
             } else {
                 wordsCased.push(stickyArr[i].toLowerCase());
             }
-
-
-
         }
         return wordsCased.join("");
 
