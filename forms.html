@@ -1,27 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Register With Us</title>
+    <title>Form Exercise</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div>
+    <h1>Register With Us</h1>
+    <form method="POST" action="https://webhook.site/122e186c-c042-4524-9bb2-700dca955339">
 
-<form method="POST" action="https://request-inspector.glitch.me/">
-
-  <label for="username">Username</label>
-  <input id="username" name="username" type="text">
-  <br>
-
-  <label for="password">Password</label>
-  <input id="password" name="password" type="password">
-  <br>
-
-  <input type="submit">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="example@mail.com">
+        <br>
+        <label for="pass">Password</label>
+        <input type="text" name="pass" id="pass" placeholder="8 chars long">
+        <br>
+        <textarea name="Bio" placeholder="Bio"></textarea>
+        <br>
+        <h4>How did you hear about us?</h4>
+        <label for="billboard">
+            <input id="billboard" type="checkbox" name="quiz_question_1" value="billboard"> Billboard
+        </label>
+        <br>
+        <label for="radio_advertisement">
+            <input id="radio_advertisement" type="checkbox" name="quiz_question_1"
+                   value="radio_advertisement"> Radio Advertisement
+        </label>
+        <br>
+        <label for="internet_advertisement">
+            <input id="internet_advertisement" type="checkbox" name="quiz_question_1"
+                   value="internet_advertisement"> Internet Advertisement
+        </label>
+        <br>
+        <label for="other">
+            <input id="other" type="checkbox" name="quiz_question_1" value="other"> Other
+        </label>
+        <br>
+</div>
+<div>
+    <h4>What web browser are you using?</h4>
+    <select name="web-browser">
+        <option value="0">Select One</option>
+        <option value="chrome">Chrome</option>
+        <option value="safari">Safari</option>
+        <option value="internet_explorer">Internet Explorer</option>
+        <option value="firefox">Firefox</option>
+    </select>
+</div>
+<br>
+<button>Submit</button>
 </form>
-
 </body>
 </html>
-
 
 
 
