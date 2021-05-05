@@ -80,7 +80,7 @@
 // Write a function called isAString. It should take in one input and return true if the input is a string. If the input is not a string, then return false
 
 // function isAString(input) {
-//     if(input === "string") {
+//     if(typeof input === "string") {
 //         return true;
 //     } else {
 //         return false;
