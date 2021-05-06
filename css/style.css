@@ -1,8 +1,72 @@
 body {
-    background-color: papayawhip;
+    background-color: #016078;
+    background-image: url("../img/confetti.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Antonio', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+h2 {
+    color: deeppink;
     text-decoration: underline;
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+table {
+    background-color: papayawhip;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+a:link {
+    color: #ff0000;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+a:visited {
+    color: #ff00ff;
+}
+a:hover {
+    color: #00ff00;
+    border-bottom: none;
+}
+a:active {
+    color: #00ffff;
 }
 
 .fancy-header {
-    color: purple;
+    color: #EF798A;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 72px;
+}
+
+.motto {
+    text-align: center;
+}
+
+.lists {
+    text-align: center;
+    margin: 30px;
+}
+
+.image-square {
+    text-align: center;
 }
