@@ -114,7 +114,9 @@ a {
     border: 1px var(--separator-color);
     padding: .5em;
     overflow: visible;
-    width: 100%
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+
 }
 .media-image {
     width: 50px;
