@@ -129,4 +129,8 @@ a {
 }
 .profile-items {
     list-style-type: none;
+    padding: 0;
+}
+.profile-entry {
+    margin: .5em;
 }
