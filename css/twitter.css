@@ -68,6 +68,7 @@ a {
 .img-circle {
     border-radius: 100%;
     border: 4px solid var(--light-bg);
+
 }
 .text-right {
     text-align: right;

@@ -1,22 +1,14 @@
+console.log("Hello from external JavaScript");
 
 alert("Welcome to my Website!");
 
 let favoriteColor = prompt("What is your favorite color?").toUpperCase();
-
 
 if(favoriteColor === "lime".toUpperCase()) {
     alert(favoriteColor + " is my favorite color too");
 } else {
     alert("Your favorite color is: " + favoriteColor);
 }
-
-
-
-
-
-
-
-
 
 // LESSON EXERCISE
 // TODO: Create an html file on the project root called external_js.html
