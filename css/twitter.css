@@ -92,7 +92,7 @@ a {
 }
 
 .timeline {
-    width: 40%;
+    width: 55%;
     float: left;
     margin-left: .5em;
     margin-right: .5em;
@@ -114,4 +114,17 @@ a {
     border: 1px var(--separator-color);
     padding: .5em;
     overflow: visible;
+    width: 100%
+}
+.media-image {
+    width: 50px;
+    margin-top: 1.33em;
+    float: left;
+}
+.media-body {
+    float: bottom;
+    width: 100%;
+}
+.profile-items {
+    list-style-type: none;
 }
