@@ -42,6 +42,9 @@ h2, h3 {
 section {
     display: flex;
     justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: .5em;
     /* enter needed declarations here */
 }
 
@@ -54,7 +57,8 @@ section:nth-of-type(1) {
 
 }
 section:nth-of-type(1) div:last-child {
- display: flex;
+    display: flex;
+    align-self: flex-start;
     /* enter needed declarations here */
 }
 
@@ -67,13 +71,14 @@ section:nth-of-type(1) div:last-child {
 
 .purple-box:nth-of-type(1) {
 
-flex-grow: inherit;
+    flex-grow: 2;
     /* enter needed declarations here */
 }
 
 .purple-box:nth-of-type(2) {
     /* enter needed declarations here */
-    flex-grow: 2;
+
+    flex-grow: 1;
 }
 
 .blue-box {
