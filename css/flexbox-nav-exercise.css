@@ -6,12 +6,15 @@ body {
 }
 nav {
     background: gray;
+    display: flex;
+    justify-content: space-between;
 }
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
+
 }
 nav a {
     text-decoration: none;
@@ -22,7 +25,13 @@ nav a {
 nav a:hover {
     background: blue;
 }
-nav ul li:nth-child(4) {
+
+/*nav ul li:nth-child(5) {*/
+
+/*    margin-left: auto;*/
+/*}*/
+
+nav ul li:nth-child(6) {
 
     margin-left: auto;
 }
