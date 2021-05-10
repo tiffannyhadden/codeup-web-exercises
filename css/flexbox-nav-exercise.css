@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+nav {
+    background: gray;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 1em;
+}
+nav a:hover {
+    background: blue;
+}
+nav ul li:nth-child(4) {
+
+    margin-left: auto;
+}
+
+
+/*box-sizing: border-box for all elements*/
+/*link text, the logo, and icons are surrounded by anchor tags*/
+/*links turn blue on hover*/
+/*anchor tags are display: inline-block*/
+/*clickable area of links immediately flow from one link to the next (padding will help achieve this)*/
+/*Google Fonts used for logo and link text ("Montserrat" and "Work Sans", respectively)*/
+/*the "Logo" text is 3em with .2em of padding above and below*/
+/*                              no explicit height given to the navbar*/
+/*                              default styling is removed as needed from the body, unordered list and anchor tag elements*/
+/*logo is absolutely positioned to completely center text on the navbar*/
