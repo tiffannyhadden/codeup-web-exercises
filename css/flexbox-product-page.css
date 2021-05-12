@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 !important;
+}
+
+
+nav {
+    background: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    /*padding: 1em;*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+a:hover {
+    background-color: blue;
+}
+
+h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 0;
+
+}
+header {
+    background-color: #ff8d6f;
+    text-align: center;
+    justify-content: flex-start;
+    height: 200px;
+}
+
+li {
+    margin: 12px;
+    padding: 4px;
+    color: white;
+}
+#product-item-container {
+    display: flex;
+}
