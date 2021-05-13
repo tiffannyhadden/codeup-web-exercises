@@ -16,6 +16,6 @@
 //4444
 //55555
 
-for(let i = 1; i < 6; i++) {
-    console.log(i.toString().repeat(i));
+for(let i = 1; i <= 5; i++) {
+    console.log("*".toString().repeat(i));
 }
