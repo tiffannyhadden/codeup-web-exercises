@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h1 id="main-header">JavaScript is Cool</h1>
+<h1 id="main-header">Hello, World!</h1>
 <ul>
     <li data-dbid="1">Item 1</li>
     <li data-dbid="2">Item 2</li>
@@ -32,15 +32,16 @@
         var mainHeader = document.getElementById("main-header") ;
 
         // TODO: Set inner html of mainHeader to "JavaScript is Cool"
-
+        mainHeader.innerHTML = "JavaScript is Cool!";
 
         // TODO: Uncomment the next line and get the sub header element by id
         var subHeader = document.getElementById("sub-header");
 
         // TODO: Set the text color of subHeader to blue
+        subHeader.style.color = "blue";
 
         // TODO: Uncomment the next line and get all list items
-        // var listItems = ;
+        var listItems = document.getElementsByTagName("li");
 
         // TODO: Set text color on every other list item to grey
         // TODO: Set text color of li with dbid = 1 to blue
