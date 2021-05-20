@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>DOM: Query and Modify</title>
+    <link rel="stylesheet" href="css/dom-query-js.css">
 </head>
 <body>
 
 <h1 id="main-header">Hello, World!</h1>
 <ul>
-    <li data-dbid="1">Item 1</li>
+    <li data-dbid="1" id ="dbid" >Item 1</li>
     <li data-dbid="2">Item 2</li>
     <li data-dbid="3">Item 3</li>
     <li data-dbid="4">Item 4</li>
@@ -45,11 +46,18 @@
 
         // TODO: Set text color on every other list item to grey
         // TODO: Set text color of li with dbid = 1 to blue
+        for(var i = 0; i < listItems.length; i++) {
+            if (i % 2 === 1) {
+                listItems[i].style.color = "grey";
+            }
+        }
 
         // TODO: Uncomment the next line and get all elements with class name sub-paragraph
-        // var subParagraphs = ;
+        var subParagraphs = document.getElementsByClassName("sub-paragraph");
 
         // TODO: Change the text in the first sub paragraph to "Mission Accomplished!"
+        subParagraphs[0].innerText = "Mission Accomplished!";
+
     })();
 </script>
 </body>
