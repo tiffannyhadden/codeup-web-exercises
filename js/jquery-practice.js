@@ -1,0 +1,1 @@
+$.alert("the DOM has finished loading")
