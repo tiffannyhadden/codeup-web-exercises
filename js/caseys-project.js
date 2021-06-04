@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function() {
 function addListeners(){
     //get the elements to add listener and change image
     let cardContainers = Array.from(document.querySelectorAll(".col-md-3"));
-    addEvents(cardContainers, 'assets/jazz-music-rubber-duck.jpg', 'mouseover');
-    addEvents(cardContainers, 'assets/question.png', 'mouseout');
+    addEvents(cardContainers, 'img/jazz-music-rubber-duck.jpg', 'mouseover');
+    addEvents(cardContainers, 'img/question.png', 'mouseout');
 }
 //add mouseover/mouseout events to all selected elements
 function addEvents(cardContainers, imgPath, listenerType){
