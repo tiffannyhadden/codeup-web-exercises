@@ -1,6 +1,7 @@
-$(document).ready(function() {
-    alert( 'The DOM has finished loading!' );
-});
+// $(document).ready(function() {
+//     alert( 'The DOM has finished loading!' );
+// });
+//
+// var contents = $('#list-1').html();
+// alert(contents);
 
-var contents = $('#list-1').html();
-alert(contents);
