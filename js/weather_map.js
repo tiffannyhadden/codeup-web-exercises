@@ -1,7 +1,7 @@
 
 initWeather();
 initMap();
-function initWeather() {
+function initWeather() { // weather
     $.get("https://api.openweathermap.org/data/2.5/forecast", {
         APPID: OPEN_WEATHER_APPID,
         lat:    29.423017,
@@ -9,7 +9,7 @@ function initWeather() {
         units: "imperial"
     }).done(function (data) {
         console.log(data)
-        function buildList(data) {
+        function buildList(data) { // juery
 
             let output = "";
             output += "<p>" + "<strong> Date: </strong>" + "</p>" + data.list[0].dt_txt;
@@ -18,11 +18,11 @@ function initWeather() {
             return output;
         }
 
-        $('#weather').html(buildList(data));
+        $('#weather').html(buildList(data)); // jquery
     });
 }
 
-function initMap() {
+function initMap() { //map
     //this is where i'm going to put map
     //MAPBOX_TOKEN here is my map id token const
 
