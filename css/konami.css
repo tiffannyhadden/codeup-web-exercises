@@ -1,0 +1,41 @@
+
+body{
+    background-image: url("../img5/beach10.jpg");
+}
+h1 {
+    color: plum;
+    font-size: 72px;
+    z-index: -1000;
+    font-family: 'monospace', serif;
+}
+p {
+    font-family: 'fantasy', cursive;
+    color: deeppink;
+    margin-top: 8px;
+    position: absolute;
+    top: 8em;
+    left: 4em;
+}
+.banner {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.pic {
+    height: 200em;
+    width: 500px;
+}
+.snowcone {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 3em;
+    right: -8em;
+}
+.snowcone1 {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: -8em;
+    top: 10em;
+}
